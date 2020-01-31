@@ -1,4 +1,5 @@
 import sklearn
+from sklearn.model_selection import train_test_split
 # Dividing our data into parts
 
 # We divide our data into two parts, these are mainly, training and testing.
