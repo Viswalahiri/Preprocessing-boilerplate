@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer 
-from sklearn.model_selection import train_test_split
 
 ct = ColumnTransformer(
     [('onehotencoder', OneHotEncoder(), [0])],    # The column numbers to be transformed (here is [0] but can be [0, 1, 3])
